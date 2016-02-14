@@ -19,17 +19,6 @@ public class Test {
         System.out.println("Se han añadido contactos a la agenda");
         
         
-        System.out.println("Vamos a buscar números en la agenda.");
-        // devolvemos los teléfonos que corresponden a las personas que existen en la agenda.
-        System.out.println(Ag.getTelefono("Adrián"));
-        System.out.println(Ag.getTelefono("Pepe"));
-        System.out.println(Ag.getTelefono("Juanito"));
-        
-        System.out.println(Ag.buscar("Victor"));
-        System.out.println(Ag.getPersona(2).getNombre());
-        System.out.println(Ag.getPersona("Victor").getTelefono());
-        Ag.modificarTelefono("Adrian", "666123456");
-
-        System.out.println(Ag.getTelefono("Victor"));
+       
     }
 }
